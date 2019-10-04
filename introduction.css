@@ -1,0 +1,73 @@
+*{
+    color: white;
+    box-sizing: border-box
+}
+div * {
+    /*color : black;*/
+    text-size-adjust: 12pt;
+    
+
+}
+.italic {
+    color : red;
+    font-style : italic
+}
+h2 {
+    text-size-adjust: 12pt;
+    text-align:inherit;
+    /*color:turquoise;*/
+    border: 1px solid black;
+
+}
+h1 {
+    text-size-adjust: 12pt;
+    text-align:inherit;
+    /*color:turquoise;*/
+    border: 1px solid black;
+    font-family: serif;
+    padding: 5px 0 0 10px;
+
+
+}
+/*@media screen and (mIN-width:200px){
+   body {
+        background-color: none;
+    }
+  
+    
+} */
+p {
+    font-size: 12pt;
+    width:100%; 
+    
+}
+
+p em {
+   color: red;
+   font-size: 30
+}
+body div>p ol{
+    font-style: italic;
+    
+}
+body {
+    background-image: url("nairobi skyline at night3.jpg");
+    background-repeat: no-repeat;
+    height:80%;
+    background-position: center;
+    background-size: cover;
+}
+#main-nav li {
+    display: inline-block
+}
+.nav a {
+    color: white;                
+    background-color: #13a4a4;   
+    list-style: none;
+    padding: 5px;                
+    border-radius: 2px;          
+    text-decoration: none;
+}
+.nav .featured{
+    background-color: orange !important;
+}
